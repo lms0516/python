@@ -294,4 +294,26 @@
 # else:
 #     print("Too many people")
 
+# 045
+# total = 0
+# while total <= 50:
+#     num = int(input("Enter a number: "))
+#     total = total + num
+#     print("The total is", total)
+
+# 046
+# num = 0
+# while num <= 5:
+#     num = int(input("Enter number: "))
+# print("The last number you etered was a", num)
+
+
+num1 = int(input("Enter a number: "))
+total = num1
+again = "y"
+while again == "y":
+    num2 = int(input("Enter another number: "))
+    total = total + num2
+    ans = print("Do you want to add another number? (y/n):")
+print("The total is", total)
 
