@@ -64,7 +64,7 @@
 #     windy = str.lower(windy)
 #     if windy == "yes":
 #         print("It is too windy for an umbrella")
-#     else:
+#     else
 #         print("Take an umbrella")
 # else:
 #     print("Enjoy your day")
